@@ -1,0 +1,13 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html,body { height: 100%; font-family: Arial, sans-serif; background: linear-gradient(135deg,#050416 10%, #0a0720 60%, #14001a); color:#e6f1ff; }
+.wrap { height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; }
+canvas { background: linear-gradient(180deg,#071227 0%, #02101a 100%); border: 2px solid rgba(0,255,200,0.15); display:block; box-shadow: 0 8px 30px rgba(0,0,0,0.6), 0 0 14px rgba(0,255,200,0.03) inset; }
+.hint { font-size:14px; opacity:0.9; color:#9be7ff; text-shadow:0 1px 6px rgba(0,170,255,0.15); }
+
+.stats { display:flex; gap:12px; align-items:center; }
+.stat-item { background: rgba(255,255,255,0.03); border:1px solid rgba(155,231,255,0.08); padding:6px 10px; font-size:14px; border-radius:6px; color:#e6f1ff; box-shadow: 0 4px 18px rgba(11,20,40,0.6); }
+.stat-item:first-child { border-left: 3px solid #ff2d95; }
+.stat-item:nth-child(2) { border-left: 3px solid #39ff14; }
+.stat-item:nth-child(3) { border-left: 3px solid #00fff0; }
+.stat-item:nth-child(4) { border-left: 3px solid #9b59ff; }
+.stat-item:nth-child(5) { border-left: 3px solid #ffb86b; }
